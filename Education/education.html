@@ -1,11 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Education</title>
-</head>
-<body>
-    <p>Education</p>
-</body>
+
+    <link rel="icon" href="../icons/favicon.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700;900&family=Sacramento&display=swap" rel="stylesheet">
+
+    <script
+      src="https://kit.fontawesome.com/061019c233.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../CSS/styles.css" />
+    <link rel="stylesheet" href="CSS/styles-edu.css" />
+  </head>
+  <body>
+    <!-- NavBar and basic education -->
+    <section id="firstpart">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-md navbar-dark">
+          <a class="navbar-brand star-logo ms-2" href="../index.html"
+            ><i class="fa-solid fa-flag"></i> Home</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  style="color: black"
+                  class="nav-link"
+                  href="education.html"
+                  
+                  >Education</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="../Projects/project.html"
+                 
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../calendar.html" 
+                  >Calendar</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Others/others.html" 
+                  >Others</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- Title -->
+        <h1 style="text-align: center">Education</h1>
+        <div class="row">
+          <div class="col-lg-6 top-div" style="padding: 2%; text-align: center">
+            <img
+              class="IISc-logo"
+              src="images/IISc.svg"
+              alt="profile picture"
+              width="50%"
+            />
+            <h4 style="padding-top: 2%">IISc, Bangalore</h4>
+          </div>
+          <div class="col-lg-6" style="padding: 3%">
+            <h2>5 yr <strong>BS-MS</strong></h2>
+            <h4>Major: Materials Science</h4>
+            <h4>Minor: Physics</h4>
+
+            <a
+              role="button"
+              class="btn btn-outline-light btn-lg"
+              href="#foot"
+              style="margin-top: 7%"
+            >
+              <i class="fa-solid fa-download"></i> Course List
+            </a>
+            
+            <br>
+            <a
+              role="button"
+              class="btn btn-light btn-lg ;"
+              href="#foot"
+              style="margin-top: 2%;"
+            >
+              <i class="fa-solid fa-download"></i> Resume
+            </a>
+            <a
+              role="button"
+              class="btn btn-light btn-lg"
+              href="#foot"
+              style="margin-top: 2%; margin-left: 2%"
+            >
+              <i class="fa-solid fa-camera"></i> Certificate
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="online_courses">
+      <div class="container-fluid" style="background-color: white">
+        <h2 style="text-align: center; margin: 3%">Online Courses</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-3" style="text-align: center;">
+                <div class="card">
+                    <img class="card-img-top mx-auto" src="images/DL300.png" alt="coursera" style="padding:0% auto; width:200px">
+                    <div class="card-body" style="text-align: center;">
+                        <h5 style="font-weight: 700;">Deep Learning</h5>
+                        <p class="card-text"> Deep learning and neural networks course offered by deeplearning.ai</p>
+                        <a href="https://www.coursera.org/specializations/deep-learning#about" target="_blank" role="button" class="btn btn-outline-light"><i class="fa-solid fa-magnifying-glass"></i> About</a>
+                        <a href="https://coursera.org/share/0787072b79a96d1a0d9afd3ee5dad2e8" target="_blank" role="button" class="btn btn-primary ms-2"><i class="fa-solid fa-camera"></i> Certificate</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-3" style="text-align: center;">
+                <div class="card">
+                    <img class="card-img-top mx-auto" src="images/polytechnique.jpg" alt="epfllogo" style="padding:0% auto; width:200px">
+                    <div class="card-body" style="text-align: center;">
+                        <h5 style="font-weight: 700;">Density Functional Theory</h5>
+                        <p class="card-text"> Introduction to DFT offered by Ecole Polytechnique  </p>
+                        <a href="https://www.coursera.org/learn/density-functional-theory?#about" target="_blank" role="button" class="btn btn-outline-light"><i class="fa-solid fa-magnifying-glass"></i> About</a>
+                        <a href="https://www.coursera.org/learn/density-functional-theory?#about" target="_blank" role="button" class="btn btn-primary ms-2"><i class="fa-solid fa-camera"></i> Certificate</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-3" style="text-align: center;">
+                <div class="card">
+                    <img class="card-img-top mx-auto" src="images/GTlogo.jpg" alt="gtlogo" style="padding:0% auto; width:200px">
+                    <div class="card-body" style="text-align: center;">
+                        <h5 style="font-weight: 700;">Mechanics of Materials</h5>
+                        <p class="card-text"> Solid Mechanics course offered by Georgia Tech</p>
+                        <a href="https://www.coursera.org/learn/mechanics-1#about" target="_blank" role="button" class="btn btn-outline-light"><i class="fa-solid fa-magnifying-glass"></i> About</a>
+                        <a href="https://coursera.org/share/5b162d516bfa766d8d4fd9f33d9eb176" target="_blank" role="button" class="btn btn-primary ms-2"><i class="fa-solid fa-camera"></i> Certificate</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-3" style="text-align: center;">
+                <div class="card">
+                    <img class="card-img-top mx-auto" src="images/ud2.png" alt="udemy" style="padding:0% auto; width:200px">
+                    <div class="card-body" style="text-align: center;">
+                        <h5 style="font-weight: 700;">Web Development</h5>
+                        <p class="card-text"> Complete web development bootcamp offered by Udemy</p>
+                        <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/" target="_blank" role="button" class="btn btn-outline-light"><i class="fa-solid fa-magnifying-glass"></i> About</a>
+                        <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/" target="_blank" role="button" class="btn btn-primary ms-2"><i class="fa-solid fa-camera"></i> Certificate</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+      </div>
+    </section>
+   
+   
+    <!-- footer -->
+    <footer id="footer">
+        <div class="row">
+            <div class="col-lg-3">
+                <a href="https://www.instagram.com/star.dutt/" target="_blank" style="text-decoration: none; color:inherit;">
+                    
+                    <i class="fa-brands fa-instagram fa-2x"></i> 
+                    <p>Instagram</p>
+                </a>
+            </div>
+            <div class="col-lg-3">
+                <a href="mailto:taradutt007@gmail.com" target="_blank" style="text-decoration: none; color:inherit;">
+                    
+                    <i class="fa-solid fa-envelope fa-2x"></i>
+                    <p>Email</p>
+                </a>
+            </div>
+            <div class="col-lg-3">
+                <a href="https://www.linkedin.com/in/taradutt-pattnaik-882a53145/" target="_blank" style="text-decoration: none; color:inherit;">
+                    
+                    <i class="fa-brands fa-linkedin fa-2x"></i> 
+                    <p>LinkedIn</p>
+                </a>
+            </div>
+            <div class="col-lg-3">
+                <a href="https://www.github.com/staradutt" target="_blank" style="text-decoration: none; color:inherit;">
+                   
+                    <i class="fa-brands fa-github fa-2x "></i> 
+                    <p>GitHub</p>
+                </a>
+            </div>
+            <div class="col-lg-12" >
+                <p id="foot">© Copyright  Taradutt Pattnaik</p>
+
+            </div>
+        </div>
+        
+    </footer>
+  </body>
 </html>
