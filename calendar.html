@@ -1,12 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calendar</title>
-    <link rel="icon" href="icons/favicon.ico" />
+
+    <link rel="icon" href="../icons/favicon.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700;900&family=Sacramento&display=swap" rel="stylesheet">
+
+    <script
+      src="https://kit.fontawesome.com/061019c233.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="CSS/styles.css" />
+  </head>
 </head>
-<body style="text-align: center;padding: 10%;">
-    <h1>Calendar</h1>
-    <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23F4511E&ctz=America%2FNew_York&title=Star's%20Calendar&src=dGFyYWR1dHQwMDdAZ21haWwuY29t&src=N2RjZDFjNTg1YWJjNDdhYTExZGFhYTQ3NTQ5MDljZWU0MWNkMGEwNjllMzBkMjFhMTYxNmVlNjgxOWZiNThhOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=b2RibTY1bmk3ajdiZ3FianFtOHJxM2wyb3RtcTA1azhAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%237986CB&color=%23616161&color=%237986CB&color=%23616161" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<body style="text-align: center;">
+    <!-- NavBar and basic education -->
+    <section id="firstpart">
+        <div class="container-fluid"  style="font-family: Montserrat;">
+          <!-- Nav Bar -->
+          <nav class="navbar navbar-expand-md navbar-dark">
+            <a class="navbar-brand star-logo ms-2" href="index.html"
+              ><i class="fa-solid fa-flag"></i> Home</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo01"
+              aria-controls="navbarTogglerDemo01"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a
+                    
+                    class="nav-link"
+                    href="Education/education.html"
+                    
+                    >Education</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="Projects/project.html"
+                   
+                    >Projects</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="calendar.html"  style="color: black"
+                    >Calendar</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Others/others.html" 
+                    >Others</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+            <h1 style="margin-bottom: 2%;"> <i class="fa-solid fa-calendar-day"></i> Taradutt's Calendar</h1>
+            
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23F4511E&ctz=America%2FNew_York&title=Star's%20Calendar&src=dGFyYWR1dHQwMDdAZ21haWwuY29t&src=N2RjZDFjNTg1YWJjNDdhYTExZGFhYTQ3NTQ5MDljZWU0MWNkMGEwNjllMzBkMjFhMTYxNmVlNjgxOWZiNThhOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=b2RibTY1bmk3ajdiZ3FianFtOHJxM2wyb3RtcTA1azhAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%237986CB&color=%23616161&color=%237986CB&color=%23616161" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </section>
+    
+    <!-- footer -->
+    <footer id="footer">
+        <div class="row">
+            <div class="col-lg-3">
+                <a href="https://www.instagram.com/star.dutt/" target="_blank" style="text-decoration: none; color:inherit;">
+                    
+                    <i class="fa-brands fa-instagram fa-2x"></i> 
+                    <p>Instagram</p>
+                </a>
+            </div>
+            <div class="col-lg-3">
+                <a href="mailto:taradutt007@gmail.com" target="_blank" style="text-decoration: none; color:inherit;">
+                    
+                    <i class="fa-solid fa-envelope fa-2x"></i>
+                    <p>Email</p>
+                </a>
+            </div>
+            <div class="col-lg-3">
+                <a href="https://www.linkedin.com/in/taradutt-pattnaik-882a53145/" target="_blank" style="text-decoration: none; color:inherit;">
+                    
+                    <i class="fa-brands fa-linkedin fa-2x"></i> 
+                    <p>LinkedIn</p>
+                </a>
+            </div>
+            <div class="col-lg-3">
+                <a href="https://www.github.com/staradutt" target="_blank" style="text-decoration: none; color:inherit;">
+                   
+                    <i class="fa-brands fa-github fa-2x "></i> 
+                    <p>GitHub</p>
+                </a>
+            </div>
+            <div class="col-lg-12" >
+                <p id="foot">© Copyright  Taradutt Pattnaik</p>
+
+            </div>
+        </div>
+        
+    </footer>
 </body>
 </html>
