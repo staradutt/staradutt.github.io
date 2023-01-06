@@ -74,12 +74,12 @@ body{
 
 
 /* calendar responsive */
-@media (max-width: 550px) {
+@media (max-width: 400px) {
     .big-container {
         display: none;
     }
  }
- @media (min-width: 550px) {
+@media (min-width: 400px) {
     .small-container {
         display: none;
     }
