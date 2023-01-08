@@ -1,0 +1,22 @@
+.gallery-pic{
+     margin-bottom: 20px;
+     border-radius: 20px;
+     transition: all 1s;
+}
+
+.caption{
+
+    position: absolute; 
+    margin: -50px 5px;color:white; 
+    opacity:0;
+    font-size: large;
+    font-weight: 500;
+    transition: opacity 1s;
+}
+.gallery-item:hover .caption {opacity: 1;} 
+
+.gallery-item:hover .gallery-pic{
+    transform: scale(1.05);
+    opacity:0.6;
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
