@@ -7,11 +7,14 @@
 .caption{
 
     position: absolute; 
-    margin: -50px 5px;color:white; 
+    margin: -100px 5px;color:white; 
     opacity:0;
     font-size: large;
     font-weight: 500;
     transition: opacity 1s;
+}
+.caption-link{
+    color:black;
 }
 .gallery-item:hover .caption {opacity: 1;} 
 
