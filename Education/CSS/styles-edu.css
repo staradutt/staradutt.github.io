@@ -1,7 +1,13 @@
 .IISc-logo{
     filter:invert()
 }
+.card{
+    border-radius: 20px;
+     transition: all 1s;
+}
 .card-body{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     background-color: rgb(0, 0, 0);
     color: white;
 }
