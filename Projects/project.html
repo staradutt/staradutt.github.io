@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Education</title>
+    <title>Projects</title>
 
     <link rel="icon" href="../icons/favicon.ico" />
     <link
@@ -104,73 +104,118 @@
         <div class="container-fluid">
             <div class="row project-item">
                 <h4>High Strain-rate deformation behavior of cross-linked epoxy using MD</h4>
-                <div class="col-lg-4 py-3">
-                    <img src="images/poly.gif" alt="polymer biaxial deformation">
+                <div class="col-lg-4 py-5">
+                    <img src="images/poly.gif" alt="polymer uniaxial deformation">
                 </div>
-                <div class="col-lg-8 py-5">
-                    <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</text>
+                <div class="col-lg-8 py-5 ml-3">
+                  <text>In this work, a Molecular Dynamics(MD) framework was developed to understand the deformation behavior of a well known Fiber Reinforced Polymer(FRP) composite that has applications both in navy and aerospace. </text>
+                    <br><br>
+                    <ul>
+                      <li>Made use of class 2 force fields to create the atomistic models of epoxy and amine monomers.
+                      </li>
+                      <li>Mimicked the multistep organic reaction to create the epoxy network. This was done by creating reactive sites on monomer molecules and simplifying it to a one step reaction.
+                      </li>
+                      <li>Mechanical behavior of the epoxy network thus formed, was studied under uniaxial and biaxial loading conditions.</li>
+                      
+                      
+                    </ul>
+                    <text>Skills used: <strong>LAMMPs, Python, Bash Scripting </strong> on HPC cluster</text>
+                    <br><br>
+                    <text><em>The animation on the left shows the uniaxial deformation of an epoxy network done using LAMMPs</em></text>
                     <br>
-                    <a href="https://www.coursera.org/learn/mechanics-1#about" target="_blank" role="button" class="btn btn-primary my-3"><i class="fa-solid fa-magnifying-glass"></i> More</a>
+                    <a href="https://github.com/staradutt/backup-projects/tree/main/crosslinked_epoxy_gen" target="_blank" role="button" class="btn btn-primary my-3"><i class="fa-solid fa-magnifying-glass"></i> More</a>
                 </div>
             </div>
             <div class="row project-item">
                 <h4>Investigating the wrinkling of atomic planes in metal nanowires using MD</h4>
-                <div class="col-lg-4 py-3">
-                    <img src="images/nanowire.png" alt="polymer biaxial deformation">
+                <div class="col-lg-4 py-5">
+                    <img src="images/nanowire.png" alt="nanowire wrinkling" width="100%">
                 </div>
-                <div class="col-lg-8 py-5">
-                    <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</text>
-                    <br>
-                    <a href="https://www.coursera.org/learn/mechanics-1#about" target="_blank" role="button" class="btn btn-primary my-3"><i class="fa-solid fa-magnifying-glass"></i> More</a>
-                </div>
-            </div>
-            <div class="row project-item">
-                <h4>Chladni patterns of a vibrating membrane computed using numerical methods</h4>
-                <div class="col-lg-4 py-3">
-                    <img src="images/chladni.png" alt="polymer biaxial deformation" width="300px">
-                </div>
-                <div class="col-lg-8 py-5">
-                    <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</text>
-                    <br>
-                    <a href="https://github.com/staradutt/computational-physics/tree/main/Chladni_project" target="_blank" role="button" class="btn btn-primary my-3"><i class="fa-solid fa-magnifying-glass"></i> More</a>
+                <div class="col-lg-8 py-5 ml-3">
+                    <text>Unlike the bulk solid case, as we move into smaller and smaller regimes such as nanowires and nanorods, the majority of the atoms lie on the surface, so surface effects become significant and their effects cannot be ignored. The coordination number of the surface atoms is lower than those in the bulk. So they tend to adopt spacings that are different from the bulk. They do this in order to obtain minimum energy configuration. This spacing mismatch between bulk and the surface atoms leads to development of surface stresses. These surface stresses are compensated by generation of stresses which are felt within the bulk of the solid.</text>
+                    <br><br>
+                    <text>Here we use Molecular dynamics to explore one such interesting effect of surface stress on the structure of ultra-thin metallic nanowires where the flat close packed (111) planes normal to the axis of the nanowire undergo wrinkling to form saddle shaped surfaces. </text>
+                    <br><br>
+                    <text>Skills used: <strong>LAMMPs, Python</strong></text>
+                    <br><br>
+                    <text><em>The figure on the left shows the wrinkling of a (111) surface of a gold nanowire in a hexagonal fashion
+                    </em></text>
+                    <br><br>
+                    <a href="https://github.com/staradutt/backup-projects/tree/main/Atomic_plane_wrinkling" target="_blank" role="button" class="btn btn-primary my-3"><i class="fa-solid fa-magnifying-glass"></i> More</a>
                 </div>
             </div>
             <div class="row project-item">
-                <h4>Phase field simulations using the Allen-Cahn and Cahn Hilliard equations</h4>
-                <div class="col-lg-4 py-3">
-                    <img src="images/CH.gif" alt="polymer biaxial deformation" width="300px">
+                <h4>Chladni patterns of a vibrating square plate computed using numerical methods</h4>
+                <div class="col-lg-4 py-5">
+                    <img src="images/chladni.png" alt="chladni figures" width="100%">
                 </div>
-                <div class="col-lg-8 py-5">
-                    <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</text>
+                <div class="col-lg-8 py-5 ml-3">
+                    <text>In his famous experiment in 1787, a German physicist named <em>Ernst Chladni</em> sprinkled fine sand particles on a square plate before setting it to vibration using using a violin bow. As the plate vibrates, the sand gathers at the stationary points creating intricate patterns. These patterns are studied to determine natural frequencies of the vibrating plate. <br><br>For this specific problem where we have a square plate with free boundary condition, such nodal patterns happen to be the zero sets of the eigenfunctions of a bi-harmonic oscillator. In this work we understand how the mathematical model of the eigenvalue problem is arrived at, discretized and calculated.</text>
+                    <br><br>
+                    <text>Skills used: <strong>MATLAB</strong></text>
+
                     <br>
-                    <a href="https://github.com/staradutt/computational-physics/tree/main/Chladni_project" target="_blank" role="button" class="btn btn-primary my-3"><i class="fa-solid fa-magnifying-glass"></i> More</a>
+                    <br>
+                    <text><em>The figure on the left shows some Chladni Patterns of a vibrating square plate computed using MATLAB</em></text><br>
+                    <a href="https://github.com/staradutt/computational-physics/tree/main/Chladni_project" style="margin-right: 1%;" target="_blank" role="button" class="btn btn-primary my-3 "><i class="fa-solid fa-magnifying-glass"></i> More</a>
+                    <a href="https://youtu.be/Q3oItpVa9fs" target="_blank" role="button" class="btn btn-outline-danger my-3 "><i class="fa-brands fa-youtube"></i> Youtube</a>
+                
+                  </div>
+            </div>
+            <div class="row project-item">
+                <h4>Phase field simulations using the Allen-Cahn and Cahn-Hilliard equations</h4>
+                <div class="col-lg-4 py-5">
+                    <img src="images/CH2.gif" alt="phase field" width="100%">
+                </div>
+                <div class="col-lg-8 py-5 ml-3">
+                    <text>Phase field equations are mathematical models that are used to simulate the behavior of systems that involve multiple phases, such as solidification. These equations describe the evolution of a phase field variable, which usually ranges from 0 to 1, with 0 representing one phase, and 1 representing the other. <br><br>The <em>Allen-Cahn</em> equation describes the dynamics of a scalar field that represents the order parameter, which is a measure of the deviation of the system from a state of equal concentrations of the two phases. Whereas the <em>Cahn-Hilliard</em> equation describes the dynamics of the order parameter, its gradient and a parameter that represents the chemical potential of the system.
+                    </text>
+                    <br><br>
+                    <text>In this project, both the Allen-Cahn and Cahn-Hilliard equations are solved for different starting compositions of a particular system. It involved discretizing the domain of interest first, and then approximating the derivatives using finite differences. The solution is obtained by iteratively updating the phase field variable at each time step.
+                    </text>
+                    <br><br>
+                    <text>Skills used: <strong>Python</strong></text>
+                    <br><br>
+                    <text><em>The animation on the left shows how the Cahn-Hilliard equation captures the evolution of a lamellar microstructure resulting from spinodal decomposition
+                    </em></text>
+                    <br>
+                    <a href="https://github.com/staradutt/2D-phasefield-code" target="_blank" role="button" class="btn btn-primary my-3"><i class="fa-solid fa-magnifying-glass"></i> More</a>
                 </div>
             </div>
 
             <div class="row project-item">
-                <h4>2D wave equation solved using finite difference method</h4>
-                <div class="col-lg-4 py-3">
-                    <img src="images/wave.png" alt="polymer biaxial deformation" width="300px">
+                <h4>2D wave equation for a square plate solved using finite difference method</h4>
+                <div class="col-lg-4 py-5">
+                    <img src="images/wave.png" alt="2d wave" width="100%">
                 </div>
-                <div class="col-lg-8 py-5">
-                    <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</text>
-                    <br>
-                    <a href="https://github.com/staradutt/computational-physics/tree/main/Chladni_project" target="_blank" role="button" class="btn btn-primary my-3"><i class="fa-solid fa-magnifying-glass"></i> More</a>
+                <div class="col-lg-8 py-5 ml-3">
+                  <text>In this project, the 2D wave equation for a square plate is solved numerically using MATLAB. This was done using the method of finite difference. The basic idea of the method is to first discretize the domain of interest into a grid of points and then approximate the partial derivatives in the wave equation using finite differences. After that a time stepping scheme is used to update the values of the wave function at each grid point at each time step. </text>  
+                  <br><br>
+                  <text>Skills used: <strong>MATLAB</strong></text>
+                  <br><br>
+                  <text><em>The figure on the left shows a numerical solution of the wave function at a given timestep</em></text>
+                  <br>  
+                  <a href="https://github.com/staradutt/backup-projects/tree/main/2DWave" target="_blank" role="button" class="btn btn-primary my-3"><i class="fa-solid fa-magnifying-glass"></i> More</a>
                 </div>
             </div>
 
             <div class="row project-item">
                 <h4>Smart bottle design using Autodesk© Alias</h4>
-                <div class="col-lg-4 py-3">
-                    <img src="images/botl.png" alt="polymer biaxial deformation" width="300px">
+                <div class="col-lg-4 py-5">
+                    <img src="images/botl.png" alt="smart bottle" width="100%">
                 </div>
-                <div class="col-lg-8 py-5">
-                    <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</text>
+                <div class="col-lg-8 py-5 ml-3">
+                    <text>This project involved the use of Autodesk Alias, a software tool for industrial design to create a design for a “smart bottle”. The design process involved drawing sketches, clay modeling, 3D scanning, prototyping using Alias and then 3D printing the final product.</text>
+                    <br><br>
+                    <text>Skills used: <strong>Autodesk Alias</strong></text>
+                    <br><br>
+                    <text><em>The image on the left shows a prototype of the bottle developed using Autodesk© Alias 
+                    </em></text>
                     <br>
                     <a href="https://docs.google.com/presentation/d/1F9X4Pkv_HVTWLzQHCy-RCLJiT-2HF6duA4c3r6tTLtg/edit#slide=id.g56bb9259fa_0_157" target="_blank" role="button" class="btn btn-primary my-3"><i class="fa-solid fa-magnifying-glass"></i> More</a>
                 </div>
             </div>
-            <div class="row project-item">
+            <!-- <div class="row project-item">
                 <h4>LEDs based on perovskite nanocrystals</h4>
                 <div class="col-lg-4 py-3">
                     <img src="images/ntu.png" alt="polymer biaxial deformation" width="300px">
@@ -180,16 +225,35 @@
                     <br>
                     <a href="https://docs.google.com/presentation/d/1F9X4Pkv_HVTWLzQHCy-RCLJiT-2HF6duA4c3r6tTLtg/edit#slide=id.g56bb9259fa_0_157" target="_blank" role="button" class="btn btn-primary my-3"><i class="fa-solid fa-magnifying-glass"></i> More</a>
                 </div>
-            </div>
+            </div> -->
             <div class="row project-item">
-                <h4>Dolphin community detection using normalised graph laplacian matrix</h4>
-                <div class="col-lg-4 py-3">
-                    <img src="images/dolphin.png" alt="polymer biaxial deformation" width="300px">
+                <h4>Dolphin community detection</h4>
+                <div class="col-lg-4 py-5">
+                    <img src="images/dolphin.png" alt="polymer biaxial deformation" width="100%">
                 </div>
-                <div class="col-lg-8 py-5">
-                    <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</text>
+                <div class="col-lg-8 py-5 ml-3">
+                    <text>Community detection in graphs is the process of identifying groups of nodes in a graph that are more closely connected to each other than to the rest of the graph. Some common methods to identify communities in a graph are:
+                    </text>
+                    <ul>
+                      <li><text><em>Spectral method:</em> This method involves analyzing the eigenvectors of the graph’s Laplacian matrix to identify communities.
+                      </text>
+                      </li>
+                      
+                      <li>
+                        <text><em>Louvain method:</em> It is a greedy optimization method that aims to maximize modularity, a measure of the density of edges within a community compared to density of edges between communities. It starts out by treating each node as a community and then iteratively combines communities by moving nodes from one community to another such that modularity is maximized after each move.
+                        </text>
+                      </li>
+                    </ul>
+                    <text>In this work, both these methods are employed to detect two dolphin communities from their undirected social network graph and the results are compared.
+                    </text>
+                    <br><br>
+                    <text>Skills Used: <strong>Python, NetworkX</strong></text>
+                    <br><br>
+                    <text><em>The figure on the left shows nodes of the dolphin social network colored according to the particular community they belong to. This solution was arrived at by Louvain’s method. 
+                    </em>
+                    </text>
                     <br>
-                    <a href="https://docs.google.com/presentation/d/1F9X4Pkv_HVTWLzQHCy-RCLJiT-2HF6duA4c3r6tTLtg/edit#slide=id.g56bb9259fa_0_157" target="_blank" role="button" class="btn btn-primary my-3"><i class="fa-solid fa-magnifying-glass"></i> More</a>
+                    <a href="https://github.com/staradutt/backup-projects/tree/main/dolphin%20community%20detection" target="_blank" role="button" class="btn btn-primary my-3"><i class="fa-solid fa-magnifying-glass"></i> More</a>
                 </div>
             </div>
             
