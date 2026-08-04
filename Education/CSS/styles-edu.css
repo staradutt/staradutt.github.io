@@ -1,6 +1,8 @@
 .IISc-logo{
-    font-size: 8rem;
-    color: #fff;
+   font-size: 20rem;
+    color: #ffffff !important;
+    display: block;
+    margin: 0 auto;
 }
 .card{
     border-radius: 20px;
