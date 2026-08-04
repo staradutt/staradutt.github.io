@@ -75,9 +75,9 @@
             <!-- Title -->
             <div class="row">
                 <div class="col-lg-6 " style="padding-bottom: 10%;">
-                    <h1 style="font-weight:700 ;">Welcome to my property on the internet!</h1>
-                    <h3>Trespassers won't be prosecuted.</h3>
-                    
+                    <h1 style="font-weight:700 ;">Hi, I'm Taradutt</h1>
+                    <p class="hero-bio">An explorer at heart &mdash; as curious about new cities and cultures as I am about the hidden symmetries inside a crystal lattice. These days I'm digging into isolated point defects in solids, and symmetry and group theory, with a recent detour into GNNs for molecular property prediction. When I'm not staring at DFT output, I'm probably planning the next trip somewhere I haven't been.</p>
+
                     <a role="button" class="btn btn-outline-light btn-lg" href="#foot" style="margin-top: 5%;">
                         <i class="fa-solid fa-handshake-simple"></i> Connect
                     </a>
@@ -103,14 +103,14 @@
         <h2>Interests</h2>
         <div class="row">
             <div class="col-lg-4 interest-box">
-                <i class="fa-solid fa-atom fa-4x interest-icon"></i>
-                <h4 class="each_interest_font">Quantum Mechanics</h4>
-                <p ></p>
+                <i class="fa-regular fa-circle-dot fa-4x interest-icon"></i>
+                <h4 class="each_interest_font">Point Defects</h4>
+                <p class="interest-desc">Isolated point defects in solids</p>
             </div>
             <div class="col-lg-4 interest-box ">
-                <i class="fa-solid fa-brain fa-4x interest-icon"></i>
-                <h4 class="each_interest_font">Machine Learning</h4>
-                <p></p>
+                <i class="fa-solid fa-shapes fa-4x interest-icon"></i>
+                <h4 class="each_interest_font">Symmetry</h4>
+                <p class="interest-desc">Symmetry and group theory in materials</p>
             </div>
             <div class="col-lg-4 interest-box">
                 <i class="fa-solid fa-compass-drafting fa-4x interest-icon"></i>
@@ -125,44 +125,6 @@
 
     </section>
 
-    <!-- favourite quotes -->
-    <section id="quotes">
-        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000" data-bs-pause="hover">
-            <ol class="carousel-indicators">
-                <li data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></li>
-                <li data-bs-target="#carouselExample" data-bs-slide-to="1"></li>
-                <li data-bs-target="#carouselExample" data-bs-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <h1>Everyday is day one</h1>
-                <em>Jeff Bezos</em>
-              </div>
-              <div class="carousel-item">
-                <h1>The best advice is no advice</h1>
-                <em></em>
-              </div>
-              <div class="carousel-item">
-                <h1>Believe you can and you're halfway there</h1>
-                <em>Theodore Roosevelt</em>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-
-
-
-
-    </section>
-
-    <!-- footer -->
     <footer id="footer">
         <div class="row">
             <div class="col-lg-3">
@@ -200,5 +162,21 @@
         </div>
         
     </footer>
+
+    <script>
+      (function () {
+        var hero = document.getElementById("firstpart");
+        if (!hero) return;
+        if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+        hero.addEventListener("mousemove", function (e) {
+          var rect = hero.getBoundingClientRect();
+          var x = ((e.clientX - rect.left) / rect.width) * 100;
+          var y = ((e.clientY - rect.top) / rect.height) * 100;
+          hero.style.setProperty("--mx", x + "%");
+          hero.style.setProperty("--my", y + "%");
+        });
+      })();
+    </script>
   </body>
 </html>
