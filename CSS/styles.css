@@ -12,8 +12,27 @@ a{
     font-size: 2rem;;
 }
 #firstpart {
-    background-color: rgb(223, 65, 37);
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #0b3d2e 0%, #14532d 55%, #1b4332 100%);
     color: #fff;
+}
+#firstpart::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(600px circle at var(--mx, 50%) var(--my, 20%), rgba(149, 213, 178, 0.22), transparent 60%);
+    pointer-events: none;
+    z-index: 0;
+}
+#firstpart .container-fluid {
+    position: relative;
+    z-index: 1;
+}
+@media (prefers-reduced-motion: reduce) {
+    #firstpart::before {
+        background: radial-gradient(600px circle at 50% 20%, rgba(149, 213, 178, 0.15), transparent 60%);
+    }
 }
 .container-fluid{
     padding: 3% 15%;
@@ -49,7 +68,7 @@ a{
     padding: 5%;
 }
 .interest-icon{
-    color: rgb(223, 65, 37);
+    color: #1b4332;
     
     height: 25%;
 
@@ -57,16 +76,15 @@ a{
 .each_interest_font{
     padding-top: 7%;
 }
-/* quotes */
-#quotes{
-    background-color: rgb(223, 65, 37);
-    color: #fff;
-    text-align: center;
+.interest-desc{
+    color: #555;
+    font-size: 0.95rem;
 }
-.carousel-item {
-    padding-top: 200px;
-    height:500px;
-    font-size:xx-large;
+.hero-bio{
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-top: 1rem;
+    color: #eaf3ee;
 }
 /* footer */
 #footer{
